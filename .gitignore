@@ -1,0 +1,16 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Data Cache (Avoid committing the local fallback files)
+*.jsonl
+*.log
+
+# Models & Media (Inherited from previous weeks)
+*.pt
+*.mp4
+*.tflite
+
+# OS & IDE
+.DS_Store
+.vscode/
