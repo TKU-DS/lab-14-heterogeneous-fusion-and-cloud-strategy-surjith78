@@ -64,7 +64,7 @@ def vision_producer():
 def publish_data(payload):
     """Simulates MQTT Publishing with Local Fallback (Graceful Degradation)."""
     # Simulate a connection success rate of 80%
-    success = random.random() > 0.2 
+    success = False
     
     if success and HAS_MQTT:
         print(f"[CLOUD] Successfully published via MQTT QoS 1.")
